@@ -9,10 +9,10 @@ import '../../styles/testimonialslider.css';
 const TestimonialSlider = () => {
   const settings = {
     dots: true,
-    autoPlay: true,
+    autoplay: true,
     infinite: true,
-    speed: 1000,
-    autoplaySpeed: 3000,
+    speed: 5000,
+    autoplaySpeed: 2000,
     swipeToSlide: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -25,7 +25,7 @@ const TestimonialSlider = () => {
         </p>
         <div className='slider__content d-flex align-items-center gap-3'>
           <img src={ava01} alt='avatar' className=' rounded' />
-          <h6>John Doe</h6>
+          <h6>Steven George</h6>
         </div>
       </div>
       <div>
@@ -34,7 +34,7 @@ const TestimonialSlider = () => {
         </p>
         <div className='slider__content d-flex align-items-center gap-3'>
           <img src={ava02} alt='avatar' className='rounded' />
-          <h6>Steven Crock</h6>
+          <h6>Markham Paul</h6>
         </div>
       </div>
       <div>
@@ -43,7 +43,7 @@ const TestimonialSlider = () => {
         </p>
         <div className='slider__content d-flex align-items-center gap-3'>
           <img src={ava03} alt='avatar' className=' rounded' />
-          <h6>Missi Lou</h6>
+          <h6>Amelia Shephered</h6>
         </div>
       </div>
       <div>
@@ -52,7 +52,7 @@ const TestimonialSlider = () => {
         </p>
         <div className='slider__content d-flex align-items-center gap-3'>
           <img src={ava04} alt='avatar' className=' rounded' />
-          <h6>Karen Doe</h6>
+          <h6>Lisa Ford</h6>
         </div>
       </div>
     </Slider>
