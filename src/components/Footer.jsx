@@ -52,7 +52,7 @@ const Footer = () => {
         <Row className='mt-5'>
           <Col lg='6' md='6'>
             <p className='copyright__text'>
-              Copyright - 2024
+             {'< / > ❤️ Kamran Mustafa © Copyright 2024 😎'}
             </p>
           </Col>
           <Col lg='6' md='6'>

@@ -22,17 +22,17 @@ const featureData = [
   {
     title: 'Quick Delivery',
     imgUrl: featureImg01,
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, esse.',
+    desc: "Experience lightning-fast delivery with our service. Enjoy fresh, hot food at your doorstep in no time.",
   },
   {
     title: 'Super Dine In',
     imgUrl: featureImg02,
-    desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente?',
+    desc: "Indulge in a superior dine-in experience. Enjoy exquisite ambiance, exceptional service, and delectable dishes crafted to perfection.",
   },
   {
     title: 'Easy Pick Up',
     imgUrl: featureImg03,
-    desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, saepe!',
+    desc: "Convenient pick-up options available. Order ahead and your food will be ready for you to collect with ease.",
   },
 ];
 const Home = () => {
@@ -76,17 +76,15 @@ const Home = () => {
             <Col lg='6' md='6'>
               <div className='hero__content'>
                 <h5 className='mb-3'>
-                  Fast and easy food delivery service to spoil the foodie within
-                  you
+                  Craving a delicious pizza delivered hot and fresh to your door? 
                 </h5>
                 <h1 className='mb-4 hero__title'>
-                  <span>HUNGRY?</span> just wait <br /> food at
-                  <span> your door!</span>
+                  <span>HUNGRY?</span> Why Wait?<br />Order Now at
+                  <span> Pizza Pulse Delivery!</span>
                 </h1>
 
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Placeat, minima.
+                  Grab your order - Tap below : 
                 </p>
 
                 <div className='hero__btns d-flex align-items-center gap-5 mt-4'>
@@ -133,12 +131,10 @@ const Home = () => {
                 we will <span>take care</span>
               </h2>
               <p className='mb-1 mt-4 feature__text'>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Laborum, deserunt.
+              Enjoy our fast and reliable delivery service, bringing delicious, freshly prepared meals straight to your door. No hassle, no worries—just great food and convenience.
               </p>
               <p className='mb-1 mt-4 feature__text'>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error,
-                ullam?
+               Plus, our easy online ordering system ensures a seamless experience every time.
               </p>
             </Col>
 
@@ -230,10 +226,7 @@ const Home = () => {
                   Why <span>Foodie?</span>
                 </h2>
                 <p className='foodie-desc'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-                  laborum ratione maiores? Commodi quam nostrum recusandae! Quod
-                  ducimus non molestias, numquam labore quidem nam illum esse
-                  harum vitae laborum? Error!
+                  Being a foodie means having a passionate interest in exploring and enjoying diverse culinary experiences. It's about savoring flavors, appreciating the artistry of cooking, and discovering new dishes and cuisines. Foodies often seek out unique dining experiences, share their gastronomic adventures, and celebrate the cultural richness food brings to life.
                 </p>
                 <ListGroup className='mt-4'>
                   <ListGroupItem className='border-0 ps-0'>
@@ -242,8 +235,7 @@ const Home = () => {
                       food
                     </p>
                     <p className='choose__us-desc'>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Consectetur, sunt!
+                    Fresh and tasty food elevates the dining experience, bringing joy and satisfaction with every bite. The vibrant flavors of freshly sourced ingredients create dishes that are not only delicious but also nutritious.
                     </p>
                   </ListGroupItem>
                   <ListGroupItem className='border-0 ps-0'>
@@ -251,8 +243,7 @@ const Home = () => {
                       <i className='ri-checkbox-circle-line'></i>Quality support
                     </p>
                     <p className='choose__us-desc'>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Quae, iure.
+                    Quality support is essential for ensuring customer satisfaction and trust. It involves prompt, professional assistance, addressing issues efficiently and courteously. 
                     </p>
                   </ListGroupItem>
                   <ListGroupItem className='border-0 ps-0'>
@@ -261,8 +252,7 @@ const Home = () => {
                       location
                     </p>
                     <p className='choose__us-desc'>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Temporibus, ex.
+                    Any location" refers to the ability to provide services or products regardless of geographical constraints. It highlights flexibility and accessibility, ensuring that customers can benefit from offerings no matter where they are.
                     </p>
                   </ListGroupItem>
                 </ListGroup>
@@ -298,9 +288,7 @@ const Home = () => {
                   What our <span>customers </span>are saying
                 </h2>
                 <p className='testimonial__desc'>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Dolor accusantium magni omnis culpa cupiditate nesciunt amet,
-                  fugit nam doloremque rem.
+                "Delicious food, excellent service, and a welcoming atmosphere. Highly recommended!' Join us and experience it for yourself today."
                 </p>
                 <TestimonialSlider />
               </div>

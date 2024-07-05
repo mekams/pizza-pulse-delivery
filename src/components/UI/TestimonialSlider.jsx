@@ -21,10 +21,7 @@ const TestimonialSlider = () => {
     <Slider {...settings}>
       <div>
         <p className='review__text'>
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nesciunt
-          dignissimos iure perspiciatis atque voluptas? Modi quae corporis ad ea
-          corrupti itaque voluptatum, sapiente optio laudantium accusamus
-          molestiae, natus eum?"
+        "Absolutely fantastic pizza! The crust is perfectly crispy, the toppings are generous, and the sauce is flavorful. Service was quick and friendly. Can't wait to return and try more from their menu. Highly recommended!"
         </p>
         <div className='slider__content d-flex align-items-center gap-3'>
           <img src={ava01} alt='avatar' className=' rounded' />
@@ -33,10 +30,7 @@ const TestimonialSlider = () => {
       </div>
       <div>
         <p className='review__text'>
-          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
-          exercitationem magni esse asperiores mollitia repellat similique
-          excepturi necessitatibus odit. Odit unde rerum distinctio voluptate
-          vero quo esse autem similique dolorem!"
+        "Delicious and authentic Italian pizza! The Margherita was a standout with fresh ingredients and a perfectly balanced taste. Cozy atmosphere and attentive staff made our dining experience enjoyable. Definitely a must-visit for pizza lovers!"
         </p>
         <div className='slider__content d-flex align-items-center gap-3'>
           <img src={ava02} alt='avatar' className='rounded' />
@@ -45,10 +39,7 @@ const TestimonialSlider = () => {
       </div>
       <div>
         <p className='review__text'>
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur
-          laudantium, aliquam obcaecati pariatur quam odit aperiam quasi
-          explicabo at fugit, reiciendis, sunt atque mollitia nulla. Similique
-          consequuntur ipsum illum facilis?"
+        "Best pizza in town! The wood-fired oven gives the crust a wonderful smoky flavor. Each bite was a delight. Friendly staff and reasonable prices. We loved the ambiance and will certainly be back for more."
         </p>
         <div className='slider__content d-flex align-items-center gap-3'>
           <img src={ava03} alt='avatar' className=' rounded' />
@@ -57,10 +48,7 @@ const TestimonialSlider = () => {
       </div>
       <div>
         <p className='review__text'>
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam,
-          veritatis molestias repudiandae deleniti doloribus porro deserunt
-          optio dolorem. Amet temporibus veniam omnis vel officiis mollitia,
-          tenetur laudantium animi eos suscipit?"
+        "Amazing variety of pizzas to choose from! Each slice was bursting with flavor. The gourmet options are a real treat. The service was prompt, and the staff were very accommodating. A great place for family dinners!"
         </p>
         <div className='slider__content d-flex align-items-center gap-3'>
           <img src={ava04} alt='avatar' className=' rounded' />
