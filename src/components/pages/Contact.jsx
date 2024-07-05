@@ -10,7 +10,7 @@ const Contact = () => {
       <section>
         <Container>
           <Row>
-            <Col></Col>
+            <Col><p>Please find contact information at the bottom of this page.👇</p></Col>
           </Row>
         </Container>
       </section>
