@@ -3,7 +3,8 @@
 .footer {
   padding-top: 50px;
   padding-bottom: 30px;
-  background: #fde4e4;
+  /* background: var(--third-color); */
+  background: var(--third-color);
   position: relative;
   
 }
