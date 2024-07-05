@@ -11,6 +11,7 @@ export default function AboutUs() {
         <Container>
           <Row>
             <Col>
+            <b>
               "At Pizza Pulse, we're not just about delivering delicious pizzas;
               we're passionate about creating memorable experiences with every
               slice. Established with a commitment to quality and convenience,
@@ -33,6 +34,7 @@ export default function AboutUs() {
               time, every time. Join us in celebrating the joy of pizza. Whether
               you're enjoying a quiet night in or hosting a festive occasion,
               Pizza Pulse is here to deliver happiness, one slice at a time."
+              </b>
             </Col>
           </Row>
         </Container>

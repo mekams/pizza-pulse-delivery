@@ -84,7 +84,7 @@ const Home = () => {
                 </h1>
 
                 <p>
-                  Grab your order - Tap below : 
+                 <b>Grab your order - Tap below :</b> 
                 </p>
 
                 <div className='hero__btns d-flex align-items-center gap-5 mt-4'>
