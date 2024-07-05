@@ -8,6 +8,7 @@ import Checkout from '../components/pages/Checkout';
 import Contact from '../components/pages/Contact';
 import Login from '../components/pages/Login';
 import Register from '../components/pages/Register';
+import AboutUs from '../components/pages/AboutUs';
 
 const Router = () => {
   return (
@@ -20,6 +21,7 @@ const Router = () => {
       <Route path='/login' element={<Login />} />
       <Route path='/register' element={<Register />} />
       <Route path='/contact' element={<Contact />} />
+      <Route path='/about' element={<AboutUs />} />
       <Route path='/cart' element={<Cart />} />
     </Routes>
   );

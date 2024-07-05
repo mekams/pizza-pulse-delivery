@@ -17,7 +17,7 @@ const Checkout = () => {
   const shippingInfo = [];
   const cartTotalAmount = useSelector((state) => state.cart.totalAmount);
   const shippingCost = 10;
-  const totalAmount = cartTotalAmount + shippingCost;
+  const totalAmount = (cartTotalAmount + shippingCost).toFixed(2);
   const submitHandler = (e) => {
     e.preventDefault();
     const userShippingAddress = {
