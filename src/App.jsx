@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
     // Simulate a network request or any async operation
     setTimeout(() => {
-      setIsLoading(false);
+      setIsLoading(true);
     }, 4000);  // Adjust the timeout as needed
   }, []);
   return (

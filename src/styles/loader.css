@@ -17,9 +17,9 @@
   .loader {
     border: 60px solid #f3b37c;
     border-radius: 50%;
-    border-top: 40px solid #d14127;
-    width: 120px;
-    height: 120px;
+    border-top: 80px solid #d14127;
+    width: 70px;
+    height: 60px;
     animation: spin 3s reverse infinite;
   }
   
