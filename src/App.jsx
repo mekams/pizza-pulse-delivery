@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Loader from './components/Loader.jsx';
 
 
+
 function App() {
   const [isLoading, setIsLoading] = useState(true);
 
