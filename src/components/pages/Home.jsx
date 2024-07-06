@@ -250,12 +250,12 @@ const Home = () => {
                   Being a foodie means having a passionate interest in exploring and enjoying diverse culinary experiences. It's about savoring flavors, appreciating the artistry of cooking, and discovering new dishes and cuisines. Foodies often seek out unique dining experiences, share their gastronomic adventures, and celebrate the cultural richness food brings to life.
                 </p>
                 <ListGroup className='mt-4'>
-                  <ListGroupItem className='border-0 ps-0'>
+                  <ListGroupItem className=' border-0 ps-0'>
                     <p className='choose__us-title d-flex align-items-center gap-2'>
                       <i className='ri-checkbox-circle-line'></i>Fresh and Tasty
                       food
                     </p>
-                    <p className='choose__us-desc'>
+                    <p className=' choose__us-desc'>
                       Fresh and tasty food elevates the dining experience, bringing joy and satisfaction with every bite. The vibrant flavors of freshly sourced ingredients create dishes that are not only delicious but also nutritious.
                     </p>
                   </ListGroupItem>
