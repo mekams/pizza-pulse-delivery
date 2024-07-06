@@ -1,0 +1,29 @@
+/* Container to center the loader */
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: background overlay */
+    z-index: 9999; /* Ensure it's on top */
+  }
+  
+  /* Basic loader styling */
+  .loader {
+    border: 60px solid #c3bdbd;
+    border-radius: 50%;
+    border-top: 40px solid #ef3818;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    90% { transform: rotate(360deg); }
+  }
+  
