@@ -1,7 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import Helmet from '../Helmet.jsx';
 import { Container, Row, Col, ListGroup, ListGroupItem } from 'reactstrap';
-import heroImg from '../../assets/images/hero.png';
+import heroImg3 from '../../assets/images/hero3.png';
+import heroImg1 from '../../assets/images/hero1.png';
+import heroImg2 from '../../assets/images/hero2.png';
+import heroImg4 from '../../assets/images/hero4.png';
+import heroImg5 from '../../assets/images/hero5.png';
 import '../../styles/homeherosection.css';
 import { Link } from 'react-router-dom';
 import Category from '../UI/Category.jsx';
@@ -14,9 +18,10 @@ import foodCategoryImg01 from '../../assets/images/hamburger.png';
 import foodCategoryImg02 from '../../assets/images/pizza.png';
 import foodCategoryImg03 from '../../assets/images/bread.png';
 import ProductCard from '../UI/ProductCard.jsx';
-import whyImg from '../../assets/images/location.png';
 import networkImg from '../../assets/images/network.png';
 import TestimonialSlider from '../UI/TestimonialSlider.jsx';
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const featureData = [
   {
@@ -35,6 +40,7 @@ const featureData = [
     desc: "Convenient pick-up options available. Order ahead and your food will be ready for you to collect with ease.",
   },
 ];
+
 const Home = () => {
   const [category, setCategory] = useState('ALL');
   const [allProducts, setAllProducts] = useState(Products);
@@ -45,6 +51,7 @@ const Home = () => {
     const slicePizza = filteredPizza.slice(0, 4);
     setHotPizza(slicePizza);
   }, []);
+
   useEffect(() => {
     if (category === 'ALL') {
       setAllProducts(Products);
@@ -68,6 +75,7 @@ const Home = () => {
       setAllProducts(filteredProducts);
     }
   }, [category]);
+
   return (
     <Helmet title='Home'>
       <section>
@@ -84,13 +92,12 @@ const Home = () => {
                 </h1>
 
                 <p>
-                 <b>Grab your order - Tap below :</b> 
+                  <b>Grab your order - Tap below :</b> 
                 </p>
 
                 <div className='hero__btns d-flex align-items-center gap-5 mt-4'>
-                  {/* <button className='order__btn d-flex align-items-center justify-content-between all__foods-btn'> */}
                   <button className='order__btn all__foods-btn'>
-                  <Link to='/foods'>Order Now</Link>
+                    <Link to='/foods'>Order Now</Link>
                   </button>
                 </div>
                 <div className='hero__service d-flex align-items-center gap-5 mt-5'>
@@ -110,13 +117,27 @@ const Home = () => {
               </div>
             </Col>
             <Col lg='6' md='6'>
-              <div className='hero__img'>
-                <img src={heroImg} alt='hero-img' className='w-100' />
+            <div className='hero__img'>
+                <Carousel showArrows={true} infiniteLoop={true} autoPlay={true} interval={2800} showThumbs={false}>
+                  <div>
+                    <img src={heroImg4} alt='hero-img-1' className='w-100' />
+                  </div>
+                  <div>
+                    <img src={heroImg2} alt='hero-img-2' className='w-100' />
+                  </div>
+                  <div>
+                    <img src={heroImg1} alt='hero-img-3' className='w-100' />
+                  </div>
+                  <div>
+                    <img src={heroImg3} alt='hero-img-4' className='w-100' />
+                  </div>
+                </Carousel>
               </div>
             </Col>
           </Row>
         </Container>
       </section>
+
       <section className='pt-0'>
         <Category />
       </section>
@@ -131,10 +152,10 @@ const Home = () => {
                 we will <span>take care</span>
               </h2>
               <p className='mb-1 mt-4 feature__text'>
-              Enjoy our fast and reliable delivery service, bringing delicious, freshly prepared meals straight to your door. No hassle, no worries—just great food and convenience.
+                Enjoy our fast and reliable delivery service, bringing delicious, freshly prepared meals straight to your door. No hassle, no worries—just great food and convenience.
               </p>
               <p className='mb-1 mt-4 feature__text'>
-               Plus, our easy online ordering system ensures a seamless experience every time.
+                Plus, our easy online ordering system ensures a seamless experience every time.
               </p>
             </Col>
 
@@ -218,7 +239,7 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg='6' md='6'>
-              <img src={whyImg} alt='why-foodie' className='w-100'></img>
+              <img src={heroImg5} alt='why-foodie' className='w-100'></img>
             </Col>
             <Col lg='6' md='6'>
               <div className='why__foodie'>
@@ -235,7 +256,7 @@ const Home = () => {
                       food
                     </p>
                     <p className='choose__us-desc'>
-                    Fresh and tasty food elevates the dining experience, bringing joy and satisfaction with every bite. The vibrant flavors of freshly sourced ingredients create dishes that are not only delicious but also nutritious.
+                      Fresh and tasty food elevates the dining experience, bringing joy and satisfaction with every bite. The vibrant flavors of freshly sourced ingredients create dishes that are not only delicious but also nutritious.
                     </p>
                   </ListGroupItem>
                   <ListGroupItem className='border-0 ps-0'>
@@ -243,7 +264,7 @@ const Home = () => {
                       <i className='ri-checkbox-circle-line'></i>Quality support
                     </p>
                     <p className='choose__us-desc'>
-                    Quality support is essential for ensuring customer satisfaction and trust. It involves prompt, professional assistance, addressing issues efficiently and courteously. 
+                      Quality support is essential for ensuring customer satisfaction and trust. It involves prompt, professional assistance, addressing issues efficiently and courteously. 
                     </p>
                   </ListGroupItem>
                   <ListGroupItem className='border-0 ps-0'>
@@ -252,7 +273,7 @@ const Home = () => {
                       location
                     </p>
                     <p className='choose__us-desc'>
-                    Any location" refers to the ability to provide services or products regardless of geographical constraints. It highlights flexibility and accessibility, ensuring that customers can benefit from offerings no matter where they are.
+                      "Any location" refers to the ability to provide services or products regardless of geographical constraints. It highlights flexibility and accessibility, ensuring that customers can benefit from offerings no matter where they are.
                     </p>
                   </ListGroupItem>
                 </ListGroup>
@@ -268,12 +289,15 @@ const Home = () => {
             <Col lg='12' className='text-center mb-5'>
               <h2>Hot Pizza</h2>
             </Col>
-
-            {hotPizza.map((item) => (
-              <Col lg='3' md='4' key={item.id}>
-                <ProductCard item={item} />
-              </Col>
-            ))}
+            <Col lg='12'>
+              <Carousel showArrows={true} infiniteLoop={true} autoPlay={true} interval={5000} showIndicators={false}>
+                {hotPizza.map((item) => (
+                  <div key={item.id}>
+                    <ProductCard item={item} />
+                  </div>
+                ))}
+              </Carousel>
+            </Col>
           </Row>
         </Container>
       </section>
@@ -288,7 +312,7 @@ const Home = () => {
                   What our <span>customers </span>are saying
                 </h2>
                 <p className='testimonial__desc'>
-                "Delicious food, excellent service, and a welcoming atmosphere. Highly recommended!' Join us and experience it for yourself today."
+                  "Delicious food, excellent service, and a welcoming atmosphere. Highly recommended!' Join us and experience it for yourself today."
                 </p>
                 <TestimonialSlider />
               </div>

@@ -6,6 +6,7 @@ import '../styles/header.css';
 import { useSelector, useDispatch } from 'react-redux';
 import { cartUiActions } from '../store/shop-cart/CartUiSlice';
 
+
 const nav__links = [
   {
     display: 'Home',
@@ -57,7 +58,7 @@ const Header = () => {
           <Link to='/home'>
             <div className='logo'>
               <img src={logo} alt='logo' />
-              <h5>Deliver</h5>
+              <h5>Pulse-Deliver</h5>
             </div>
           </Link>
 

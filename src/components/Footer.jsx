@@ -14,7 +14,7 @@ const Footer = () => {
           <Col lg='3' md='4' sm='6'>
             <div className='footer__logo text-start'>
               <img src={logo} alt='logo' /> {/* Displaying the logo */}
-              <h5>Deliver</h5> {/* Company name */}
+              <h5>Pulse-Deliver</h5> {/* Company name */}
               <p>
                 Experience the Pulse of Flavor with Every Slice. Fast, Fresh, Delivered to Your Door.
               </p> {/* Company description */}
