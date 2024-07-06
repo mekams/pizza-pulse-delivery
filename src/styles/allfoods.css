@@ -1,4 +1,4 @@
-@import '../index.css';
+@import url('../index.css');
 
 .search__widget,
 .sorting__widget select {
@@ -30,7 +30,4 @@
     width: 100% !important;
     font-size: 0.8rem;
   }
-}
-Container{
-  scroll-behavior: smooth;
 }
