@@ -1,4 +1,4 @@
-@import url('./index.css');
+@import url('../index.css');
 /* Container to center the loader */
 .loader-container {
     display: flex;
