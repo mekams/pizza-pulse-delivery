@@ -7,6 +7,7 @@ const Loader = () => {
       <div className="loader">
         {/* Loader styling and animation */}
       </div>
+      <h1> &nbsp;loading... </h1>
     </div>
   );
 };

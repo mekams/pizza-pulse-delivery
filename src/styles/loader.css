@@ -8,18 +8,18 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Optional: background overlay */
+    background-image: linear-gradient(to top, rgba(243, 223, 110, 0.326), rgba(33, 244, 255, 0.37));
     z-index: 9999; /* Ensure it's on top */
   }
   
   /* Basic loader styling */
   .loader {
-    border: 60px solid #c3bdbd;
+    border: 60px solid #f3b37c;
     border-radius: 50%;
-    border-top: 40px solid #ef3818;
+    border-top: 40px solid #d14127;
     width: 120px;
     height: 120px;
-    animation: spin 2s linear infinite;
+    animation: spin 3s reverse infinite;
   }
   
   @keyframes spin {
