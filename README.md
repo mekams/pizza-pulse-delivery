@@ -47,6 +47,138 @@ https://github.com/mekams/pizza-pulse-delivery
 ### `Folder Structure`
 
     ** Pizza_Pulse_Deliver **
+  ```pizza-pulse-delivery
+  ├─]node_modules/ (ignored)
+  ├─ public/
+  │  ├─ apple-touch-icon.png
+  │  ├─ favicon.ico
+  │  ├─ index.html
+  │  ├─ logo192.png
+  │  ├─ logo512.png
+  │  ├─ manifest.json
+  │  └─ robots.txt
+  ├─ src/
+  │  ├─ assets/
+  │  │  ├─ images/
+  │  │  │  ├─ ava-1.jpg
+  │  │  │  ├─ ava-2.jpg
+  │  │  │  ├─ ava-3.jpg
+  │  │  │  ├─ ava-4.jpg
+  │  │  │  ├─ banner.jpg
+  │  │  │  ├─ banner1.jpg
+  │  │  │  ├─ banner2.jpg
+  │  │  │  ├─ banner3.jpg
+  │  │  │  ├─ bread.png
+  │  │  │  ├─ bread(1).png
+  │  │  │  ├─ bread(2).png
+  │  │  │  ├─ bread(3).png
+  │  │  │  ├─ category-01.png
+  │  │  │  ├─ category-02.png
+  │  │  │  ├─ category-03.png
+  │  │  │  ├─ category-04.png
+  │  │  │  ├─ fried-potatoes.png
+  │  │  │  ├─ hamburger.png
+  │  │  │  ├─ hero.png
+  │  │  │  ├─ hero1.png
+  │  │  │  ├─ hero2.png
+  │  │  │  ├─ hero3.png
+  │  │  │  ├─ hero4.png
+  │  │  │  ├─ hero5.png
+  │  │  │  ├─ location.png
+  │  │  │  ├─ location1.jpg
+  │  │  │  ├─ network.png
+  │  │  │  ├─ network1.png
+  │  │  │  ├─ network4.png
+  │  │  │  ├─ pizza.png
+  │  │  │  ├─ product_01.1.jpg
+  │  │  │  ├─ product_01.3.jpg
+  │  │  │  ├─ product_01.jpg
+  │  │  │  ├─ product_04.jpg
+  │  │  │  ├─ product_08.jpg
+  │  │  │  ├─ product_09.jpg
+  │  │  │  ├─ product_2.1.jpg
+  │  │  │  ├─ product_2.2.jpg
+  │  │  │  ├─ product_2.3.jpg
+  │  │  │  ├─ product_3.1.jpg
+  │  │  │  ├─ product_3.2.jpg
+  │  │  │  ├─ product_3.3.jpg
+  │  │  │  ├─ product_4.1.jpg
+  │  │  │  ├─ product_4.2.jpg
+  │  │  │  ├─ product_4.3.png
+  │  │  │  ├─ res-logo.png
+  │  │  │  ├─ res-logo1.png
+  │  │  │  ├─ service-01.png
+  │  │  │  ├─ service-02.png
+  │  │  │  └─ service-03.png
+  │  │  ├─ screenshots/
+  │  │  │  ├─ 1.png
+  │  │  │  ├─ 2-1.png
+  │  │  │  ├─ 2.png
+  │  │  │  ├─ 3-1-1.png
+  │  │  │  ├─ 3-1.png
+  │  │  │  ├─ 3-2.png
+  │  │  │  ├─ 3-3.png
+  │  │  │  ├─ 3.png
+  │  │  │  ├─ 6.png
+  │  │  │  ├─ 7.png
+  │  │  │  ├─ 8-1.png
+  │  │  │  └─ 8-2.png
+  │  │  └─ Products.js
+  │  ├─ components/
+  │  │  ├─ pages/
+  │  │  │  ├─ AboutUs.jsx
+  │  │  │  ├─ AllFoods.jsx
+  │  │  │  ├─ Cart.jsx
+  │  │  │  ├─ Checkout.jsx
+  │  │  │  ├─ Contact.jsx
+  │  │  │  ├─ FoodDetails.jsx
+  │  │  │  ├─ Home.jsx
+  │  │  │  ├─ Login.jsx
+  │  │  │  └─ Register.jsx
+  │  │  ├─ UI/
+  │  │  │  ├─ CartItem.jsx
+  │  │  │  ├─ Category.jsx
+  │  │  │  ├─ Common.jsx
+  │  │  │  ├─ ProductCard.jsx
+  │  │  │  ├─ ShopCart.jsx
+  │  │  │  └─ TestimonialSlider.jsx
+  │  │  ├─ Footer.jsx
+  │  │  ├─ Header.jsx
+  │  │  ├─ Helmet.jsx
+  │  │  ├─ Layout.jsx
+  │  │  └─ Loader.jsx
+  │  ├─ routes/
+  │  │  └─ Router.jsx
+  │  ├─ store/
+  │  │  ├─ shop-cart/
+  │  │  │  ├─ CartSlice.jsx
+  │  │  │  └─ CartUiSlice.jsx
+  │  │  └─ store.jsx
+  │  ├─ styles/
+  │  │  ├─ allfoods.css
+  │  │  ├─ cart.css
+  │  │  ├─ cartitem.css
+  │  │  ├─ category.css
+  │  │  ├─ checkout.css
+  │  │  ├─ common.css
+  │  │  ├─ fooddetails.css
+  │  │  ├─ footer.css
+  │  │  ├─ header.css
+  │  │  ├─ home.css
+  │  │  ├─ homeherosection.css
+  │  │  ├─ loader.css
+  │  │  ├─ paginationallfoods.css
+  │  │  ├─ productcard.css
+  │  │  ├─ shopcart.css
+  │  │  └─ testimonialslider.css
+  │  ├─ App.jsx
+  │  ├─ index.css
+  │  ├─ index.js
+  │  └─ netlify.toml
+  ├─ .gitignore
+  ├─ package-lock.json
+  ├─ package.json
+  └─ README.md```
 
 
 ### `Screenshots`
