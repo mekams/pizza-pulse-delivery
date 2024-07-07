@@ -53,8 +53,8 @@ https://github.com/mekams/pizza-pulse-delivery
 ### `Screenshots`
  
 Figure 1 Home Page-1
+https://github.com/mekams/pizza-pulse-delivery/blob/main/src/assets/screenshots/1.png
 
- 
 Figure 2 Home Page-2
 
  
