@@ -49,34 +49,41 @@ https://github.com/mekams/pizza-pulse-delivery
     ** Pizza_Pulse_Deliver **
 
 
-
 ### `Screenshots`
  
-Figure 1 Home Page-1
-https://github.com/mekams/pizza-pulse-delivery/blob/main/src/assets/screenshots/1.png
+- Home Page-1
 
-Figure 2 Home Page-2
+<img width="895" alt="image" src="https://github.com/mekams/pizza-pulse-delivery/blob/main/src/assets/screenshots/1.png"> <br/>
 
+- Home Page-2
+
+<img width="895" alt="image" src="https://github.com/mekams/pizza-pulse-delivery/blob/main/src/assets/screenshots/1.png"> <br/>
+
+- Foods Page
+
+<img width="895" alt="image" src="https://github.com/mekams/pizza-pulse-delivery/blob/main/src/assets/screenshots/1.png"> <br/>
  
-Figure 3 Foods Page
+- Product Page
 
+<img width="895" alt="image" src="https://github.com/mekams/pizza-pulse-delivery/blob/main/src/assets/screenshots/1.png"> <br/>
  
-Figure 4 Product Page
+- Side Cart
 
- 
-Figure 5 Side Cart
+<img width="895" alt="image" src="https://github.com/mekams/pizza-pulse-delivery/blob/main/src/assets/screenshots/1.png"> <br/>
 
- 
-Figure 6 Cart Page
+- Cart Page
 
- 
-Figure 7 Checkout Page
+ <img width="895" alt="image" src="https://github.com/mekams/pizza-pulse-delivery/blob/main/src/assets/screenshots/1.png"> <br/>
 
- 
-Figure 8 Contact Us Page
+- Checkout Page
 
- 
-Figure 9 About Us page
+ <img width="895" alt="image" src="https://github.com/mekams/pizza-pulse-delivery/blob/main/src/assets/screenshots/1.png"> <br/>
+
+- Contact Us Page
+
+<img width="895" alt="image" src="https://github.com/mekams/pizza-pulse-delivery/blob/main/src/assets/screenshots/1.png"> <br/>
+
+- About Us page
 
  
 Figure 10 Login Page
