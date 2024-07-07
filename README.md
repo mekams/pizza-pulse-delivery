@@ -59,6 +59,10 @@ https://github.com/mekams/pizza-pulse-delivery
 
 <img width="895" alt="image" src="https://github.com/mekams/pizza-pulse-delivery/blob/main/src/assets/screenshots/2.png"> <br/>
 
+- Home Page-3
+
+<img width="895" alt="image" src="https://github.com/mekams/pizza-pulse-delivery/blob/main/src/assets/screenshots/2-1.png"> <br/>
+
 - Foods Page
 
 <img width="895" alt="image" src="https://github.com/mekams/pizza-pulse-delivery/blob/main/src/assets/screenshots/3.png"> <br/>
