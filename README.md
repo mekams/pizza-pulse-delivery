@@ -57,37 +57,41 @@ https://github.com/mekams/pizza-pulse-delivery
 
 - Home Page-2
 
-<img width="895" alt="image" src="https://github.com/mekams/pizza-pulse-delivery/blob/main/src/assets/screenshots/1.png"> <br/>
+<img width="895" alt="image" src="https://github.com/mekams/pizza-pulse-delivery/blob/main/src/assets/screenshots/2.png"> <br/>
 
 - Foods Page
 
-<img width="895" alt="image" src="https://github.com/mekams/pizza-pulse-delivery/blob/main/src/assets/screenshots/1.png"> <br/>
+<img width="895" alt="image" src="https://github.com/mekams/pizza-pulse-delivery/blob/main/src/assets/screenshots/3.png"> <br/>
  
 - Product Page
 
-<img width="895" alt="image" src="https://github.com/mekams/pizza-pulse-delivery/blob/main/src/assets/screenshots/1.png"> <br/>
+<img width="895" alt="image" src="https://github.com/mekams/pizza-pulse-delivery/blob/main/src/assets/screenshots/3-1.png"> <br/>
  
 - Side Cart
 
-<img width="895" alt="image" src="https://github.com/mekams/pizza-pulse-delivery/blob/main/src/assets/screenshots/1.png"> <br/>
+<img width="895" alt="image" src="https://github.com/mekams/pizza-pulse-delivery/blob/main/src/assets/screenshots/3-1-1.png"> <br/>
 
 - Cart Page
 
- <img width="895" alt="image" src="https://github.com/mekams/pizza-pulse-delivery/blob/main/src/assets/screenshots/1.png"> <br/>
+ <img width="895" alt="image" src="https://github.com/mekams/pizza-pulse-delivery/blob/main/src/assets/screenshots/3-2.png"> <br/>
 
 - Checkout Page
 
- <img width="895" alt="image" src="https://github.com/mekams/pizza-pulse-delivery/blob/main/src/assets/screenshots/1.png"> <br/>
+ <img width="895" alt="image" src="https://github.com/mekams/pizza-pulse-delivery/blob/main/src/assets/screenshots/3-3.png"> <br/>
 
 - Contact Us Page
 
-<img width="895" alt="image" src="https://github.com/mekams/pizza-pulse-delivery/blob/main/src/assets/screenshots/1.png"> <br/>
+<img width="895" alt="image" src="https://github.com/mekams/pizza-pulse-delivery/blob/main/src/assets/screenshots/6.png"> <br/>
 
 - About Us page
 
+<img width="895" alt="image" src="https://github.com/mekams/pizza-pulse-delivery/blob/main/src/assets/screenshots/7.png"> <br/>
  
-Figure 10 Login Page
+- Login Page
 
+<img width="895" alt="image" src="https://github.com/mekams/pizza-pulse-delivery/blob/main/src/assets/screenshots/8-1.png"> <br/>
  
-Figure 11 Registration Page
+- Registration Page
+
+<img width="895" alt="image" src="https://github.com/mekams/pizza-pulse-delivery/blob/main/src/assets/screenshots/8-2.png"> <br/>
 
