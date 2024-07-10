@@ -47,7 +47,8 @@ https://github.com/mekams/pizza-pulse-delivery
 ### `Folder Structure`
 
     ** Pizza_Pulse_Deliver **
-  ```pizza-pulse-delivery
+  pizza-pulse-delivery
+  ```
   ├─]node_modules/ (ignored)
   ├─ public/
   │  ├─ apple-touch-icon.png
@@ -178,8 +179,8 @@ https://github.com/mekams/pizza-pulse-delivery
   ├─ .gitignore
   ├─ package-lock.json
   ├─ package.json
-  └─ README.md```
-
+  └─ README.md
+```
 
 ### `Screenshots`
  
